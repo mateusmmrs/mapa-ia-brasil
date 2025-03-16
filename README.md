@@ -1,10 +1,24 @@
-# Mapa da Inseminação Artificial no Brasil
-### Adoção de IA/IATF por Estado e o Gap Tecnológico do Nordeste
+<h1 align="center">
+  Mapa da Inseminação Artificial no Brasil
+</h1>
 
-Análise exploratória com dados reais do IBGE e ASBIA sobre onde a
-inseminação artificial chega no Brasil — e onde não chega.
+<p align="center">
+  <em>Adoção de IA/IATF por Estado e o Gap Tecnológico do Nordeste</em>
+</p>
 
-## Por que esse projeto
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Matplotlib-3F4F75?logo=plotly&logoColor=white" />
+  <img src="https://img.shields.io/badge/IBGE_API-4479A1?logo=data&logoColor=white" />
+</p>
+
+Análise exploratória com dados reais do IBGE e ASBIA sobre onde a inseminação artificial chega no Brasil — e onde não chega.
+
+---
+
+## Contexto de Negócio
 
 O Brasil tem o maior rebanho comercial do mundo (238 milhões de cabeças),
 mas só 23% das matrizes são inseminadas. Os outros 77% dependem de monta
@@ -67,6 +81,20 @@ histórico em fev/2026), 2026 pode ser ano de novo boom.
 ### Correlação Arroba × IATF
 ![correlacao](plots/08_correlacao_arroba_iatf.png)
 
+---
+
+## Stack Tecnológica
+
+| Tecnologia | Aplicação |
+|-----------|-----------|
+| Python | Linguagem principal |
+| Pandas | Engenharia e manipulação de dados |
+| Jupyter | Exploração e análise interativa de dados |
+| Matplotlib | Visualizações de dados e mapas |
+| API IBGE SIDRA | Coleta automatizada de dados oficiais |
+
+---
+
 ## Como rodar
 
 ```
@@ -90,5 +118,4 @@ Os dados da ASBIA foram compilados manualmente dos relatórios em PDF.
 
 ---
 
-Mateus Martins · Médico Veterinário · Analista de Dados
-github.com/mateusmmrs
+**Mateus Martins** · Médico Veterinário · Analista de Dados
